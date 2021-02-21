@@ -1,9 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int x,y;
+    int x=2;
     x=2;
-    y=2;
-    printf("%i %i",x,y);
+    if(x<=3)
+    {
+        x++;
+    }
+    if(x!=3){
+        printf("Hiba");
+
+    }
+    kiir(x);
     return 0;
+}
+void kiir(int x){
+    printf("%i",x);
 }
